@@ -18,7 +18,13 @@ font-family: 'Satisfy', cursive;
 	
 }
 
+.neutral-font { 
+font-family: 'Satisfy', cursive;
+}
 
+.experiment-font {
+	font-family: 'Gloock', serif;
+}
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
@@ -44,7 +50,7 @@ font-family: 'Satisfy', cursive;
 }
 
 .biography-details li::before {
-	color: #EE0247;
+	color: #000000;
 }
 
 .biography-details li, .skill-list li {
@@ -57,3 +63,18 @@ font-family: 'Satisfy', cursive;
 	height: 1em;
 	flex-basis: 1.4em;
 }
+
+h1 {
+	font-size: 70px;
+}
+
+h5 {
+	color:#E81C7D;
+}
+
+.bg-pink { 
+	background-color: #E81C7D;
+}
+
+.border-white { 
+ background-color:#FFFFFF}
